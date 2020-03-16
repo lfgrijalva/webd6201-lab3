@@ -1,1 +1,3 @@
-webd6201-lab3
+# WEBD6201-W2020-Lab 3
+
+## demo project for Lab 3
