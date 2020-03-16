@@ -417,7 +417,8 @@ let app;
         //Locate the Task list button that's inside the "main content" tag, add a click button to it
         $("#mainContent").on("click","#taskListButton",function () {
             //Load the tasklist.html page content 
-            LoadPageContent("mainContent", "./Views/content/tasklist.html");
+            //Step 3a, pass the display task list as a callback
+            LoadPageContent("mainContent", "./Views/content/tasklist.html",DisplayTaskList);
         })
     })
 
